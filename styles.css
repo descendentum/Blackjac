@@ -1,0 +1,59 @@
+body {
+	background-image: url('img/zastafka.jpg');
+	background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(22, 16, 16, 0.5);
+    border: 1px solid black;
+}
+
+label {
+    display: flex;
+    visibility: visible;
+    color: rgb(0, 247, 234);
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+
+input[type="text"],
+input[type="password"] {
+    border: 1px solid rgb(19, 197, 78);
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+button[type="submit"] {
+    background-image: url('img/icon.jpg');
+    padding: 10px 20px;
+	color: rgb(209, 59, 33);
+    text-shadow: 1px 1px 1px rgb(54, 6, 6);
+    cursor: pointer;
+}
+button[type="registrationBtn"] {
+    background-color: rgb(16, 52, 121);;
+    padding: 10px 20px;
+	color: rgb(214, 46, 17);
+    text-shadow: 1px 1px 1px rgb(54, 6, 6);
+    cursor: pointer;
+}
+/*
+#imja,
+#email,
+#passNov,
+#passNovNov,
+#imjaLabel,
+#emailLabel,
+#passNovLabel,
+#passNovNovLabel{
+    display: none;
+}
+*/
