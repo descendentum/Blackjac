@@ -13,6 +13,6 @@ document.getElementById("submit").addEventListener("click", function(event) {
         alert("Не все поля были заполнены");
     } else {
         //перенаправить на новую страницу
-        window.location.href = "index2.html";
+        window.location.href = "game.html";
     }
 });

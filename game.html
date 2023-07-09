@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Моя страница</title>
+    <link rel="stylesheet" href="game.css">   
+</head>
+<body>
+    <img src="../img/coin.jpg" style="position: fixed; left: var(--left, 0); bottom: var(--bottom, 0);" alt="coin">
+    <span id="coin"style="position: fixed; left: var(--left-span, 0); bottom: var(--bottom-span, 0);">1000</span>
+    <script>
+        const img = document.querySelector("img");
+        img.style.setProperty("--left", "60px");
+        img.style.setProperty("--bottom", "350px");
+        
+        const span = document.querySelector("span");
+        span.style.setProperty("--left-span", "120px");
+        span.style.setProperty("--bottom-span", "410px");
+    </script>
+   <form id="form1" style="position: fixed; left: 0; bottom: 0;">
+    <button style="--clr:#8A2BE2"><span>1</span>></button>
+    <button style="--clr:#8A2BE2"><span>5</span></button>
+    <button style="--clr:#8A2BE2"><span>10</span></button>
+    <button style="--clr:#8A2BE2"><span>100</span></button><br>
+    <button style="--clr:#8A2BE2"><span>Убрать</span></button>
+    <button style="--clr:#8A2BE2"><span>Положить</span></button>
+</form>
+    
+    <form style="position: fixed; right: 0; bottom: 0;">
+        <button  style="--clr:#39FF14"><span>Сдать</span></button>
+        <button  style="--clr:#39FF14"><span>Ещё</span></button>
+        <button  style="--clr:#39FF14"><span>Себе</span></button>
+        <button  style="--clr:#39FF14"><span>Удвоить</span></button>
+    </form>
+</body>
+</html>
