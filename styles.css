@@ -33,8 +33,11 @@ input[type="password"] {
 
 button[type="submit"] {
     background-image: url('img/icon.jpg');
+    width: 122px;
+    height: 36px;
+    text-align: center;
     padding: 10px 20px;
-	color: rgb(209, 59, 33);
+	color: rgb(209, 90, 224);
     text-shadow: 1px 1px 1px rgb(54, 6, 6);
     cursor: pointer;
 }

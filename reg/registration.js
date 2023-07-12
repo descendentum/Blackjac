@@ -17,7 +17,7 @@ document.getElementById("registrationBtn").addEventListener("click", function(ev
       saveFile(fileContent, fileName);
       
       // перенаправить на новую страницу
-      window.location.href = "index2.html";
+      window.location.href = "index.html";
     }
   });
   

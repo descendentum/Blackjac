@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Моя страница</title>
+    <link rel="stylesheet" href="game.css">   
+</head>
+<body>
+    <img src="../img/coin.png" style="position: fixed; left: var(--left, 0); bottom: var(--bottom, 0);" alt="coin">
+    <span id="coin"style="position: fixed; left: var(--left-span, 0); bottom: var(--bottom-span, 0);">1000</span>
+    <script>
+        const img = document.querySelector("img");
+        img.style.setProperty("--left", "180px");
+        img.style.setProperty("--bottom", "500px");
+        
+        const span = document.querySelector("span");
+        span.style.setProperty("--left-span", "238px");
+        span.style.setProperty("--bottom-span", "560px");
+    </script>
+   <form id="form1" style="position: fixed; left: 0; bottom: 0;">
+    <button id="b1" style="--clr:#8A2BE2"><span>1</span>></button>
+    <button id="b5" style="--clr:#8A2BE2"><span>5</span></button>
+    <button id="b10" style="--clr:#8A2BE2"><span>10</span></button>
+    <button id="b100" style="--clr:#8A2BE2"><span>100</span></button><br>
+    <button id="ybrat" style="--clr:#8A2BE2"><span>Убрать</span></button>
+    <button id="polojit" style="--clr:#8A2BE2"><span>Положить</span></button>
+</form>
+    
+    <form id="form2"style="position: fixed; right: 0; bottom: 0;">
+       
+        <button  id="vzad" style="--clr:#39FF14"><span>Ещё</span></button>
+        <button  id="emu" style="--clr:#39FF14"><span>Ему</span></button>
+        <button  id="ydvoit" style="--clr:#39FF14"><span>Удвоить</span></button>
+    </form>
+    <form id="form3">
+        <span id=diller style=>0</span>
+        <span id=chislo>0</span>
+        <span id=chisloKart>0</span>
+        
+</form>
+    <script src="game.js"></script>
+</body>
+</html>
